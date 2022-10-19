@@ -57,9 +57,9 @@ def lookup(dictionary_class, key, query):
         defs = []
     dname = dictionary_class.__name__.replace('Dictionary', '').upper()
     if defs == []:
-        print "{0}: No definitions found for '{1}'".format(dname, query)
+        print("{0}: No definitions found for '{1}'".format(dname, query))
     for word, pos, definition in defs:
-        print "{0}: {1} [{2}]: {3}".format(dname, word, pos, definition)
+        print("{0}: {1} [{2}]: {3}".format(dname, word, pos, definition))
 
 
 if __name__ == "__main__":

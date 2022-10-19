@@ -1,2 +1,4 @@
 merriam_webster/test_data
 *.pyc
+Merriam_Webster_API.egg-info/
+build/

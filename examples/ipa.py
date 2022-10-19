@@ -29,6 +29,6 @@ if __name__ == "__main__":
     except WordNotFoundException:
         ipas = []
     for ipa in set(ipas):  # word in MW but no IPA for it
-        print ipa
+        print(ipa)
     if not ipas:
-        print "No transcriptions found for '{0}'".format(query)
+        print("No transcriptions found for '{0}'".format(query))
